@@ -30,7 +30,7 @@
         </ray>
         <plugin name="gazebo_ros_${name}_controller" filename="libgazebo_ros_laser.so">
           <topicName>${ros_topic}</topicName>
-          <frameName>/${name}_link</frameName>
+          <frameName>${name}_link</frameName>
         </plugin>
       </sensor>  
       <material>IPA/LightGrey</material>
